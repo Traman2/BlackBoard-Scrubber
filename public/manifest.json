@@ -1,0 +1,14 @@
+{
+    "name": "ElevAIte Scraping Extension",
+    "description": "v1 of the ElevAIte Extension for scraping tasks of UT Dallas Elearning",
+    "version": "1.0",
+    "permissions": ["scripting", "activeTab", "tabs"],
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "BlackBoardCrawlerLogo.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
