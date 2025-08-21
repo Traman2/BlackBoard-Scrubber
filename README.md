@@ -7,7 +7,6 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/GPL--3.0-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"/>
   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
@@ -33,6 +32,7 @@
 - **Calendar Integration**: Seamlessly sync assignments with Google Calendar
 - **Automation Tools**: Powerful automation capabilities to speed up your scheduling workflows
 - **Open Source**: Released under GNU GPL-3.0 License
+ - **Open Source**: Free and open-source
 
 Transform your academic management from manual drudgery to automated efficiency with BlackBoard Crawler. 
 
@@ -93,11 +93,7 @@ A: The extension only scrapes course information, assignment details, and due da
 A: Make sure you're logged into Blackboard. The service workers check the domain to see if you are on the elearning.[university].edu
 
 **Q: Is this extension free to use?**  
-A: Yes! BlackBoard Crawler is completely free and open-source under the GNU GPL-3.0 license.
+A: Yes! BlackBoard Crawler is completely free and open-source.
 
 **Q: How do I contribute to this project?**  
 A: Contributions are welcomed! Please fork the repository, make your changes, and submit a pull request. Check the issues page for areas where help is needed.
-
-## 📄 License
-Copyright (C) 2025 Tejas Raman <br/>
-This project is licensed under the GNU GPL Licence - check [LICENSE](LICENSE) for details.
