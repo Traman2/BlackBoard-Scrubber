@@ -15,7 +15,7 @@
 
 ## 🚀 About
 
-**BlackBoard Crawler** is a powerful Chrome extension designed to streamline your academic workflow. Part of the ElevAIte productivity suite, this open-source tool automates the tedious process of manually tracking assignments and classes from Blackboard.
+**BlackBoard Scrubber** is a powerful Chrome extension designed to scrape your tasks and classes from the BlackBoard eLearning portal using the DOM. This tool automates the tedious process of manually adding assignments and classes from Blackboard to Google Calendar.
 
 ### ✨ Key Features
 
@@ -23,10 +23,8 @@
 - **Multiple Export Options**: Download data as CSV files or sync directly with ElevAIte portal
 - **Calendar Integration**: Seamlessly sync assignments with Google Calendar
 - **Automation Tools**: Powerful automation capabilities to speed up your scheduling workflows
-- **Open Source**: Released under GNU GPL-3.0 License
- - **Open Source**: Free and open-source
 
-Transform your academic management from manual drudgery to automated efficiency with BlackBoard Crawler. 
+Transform your academic management from manual drudgery to automated efficiency with BlackBoard Scrubber. 
 
 ### 🛠️ Setup & Installation
 
@@ -39,8 +37,8 @@ Transform your academic management from manual drudgery to automated efficiency 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/traman2/BlackBoard-Crawler.git
-   cd BlackBoard-Crawler
+   git clone https://github.com/traman2/BlackBoard-Scrubber.git
+   cd BlackBoard-Scrubber
    ```
 
 2. **Install dependencies**
@@ -61,31 +59,25 @@ Transform your academic management from manual drudgery to automated efficiency 
    - Open Chrome and navigate to `chrome://extensions/`
    - Enable "Developer mode" in the top right
    - Click "Load unpacked" and select the `dist` folder
-   - The BlackBoard Crawler extension should now appear in your extensions
+   - The BlackBoard Scrubber extension should now appear in your extensions
 
 5. **That's it!**
 
 ### 🖥️ Usage
-Once the BlackBoard Crawler Extension is setup and working properly, click on the `Get My Courses` button and watch the extension work its magic and instantly render all the classes you're currently enrolled in this tear. 
+Once the BlackBoard Scrubber Extension is setup and working properly, click on the `Get My Courses` button and watch the extension work its magic and instantly render all the classes you're currently enrolled in this tear. 
 
 ## ❓ FAQ
 **Q: Is this extension safe to use with my Blackboard account?**  
-A: Yes! BlackBoard Crawler only reads publicly available information from your Blackboard dashboard. It doesn't store or transmit your login credentials as the scraping process occurs after you login.
+A: Yes! BlackBoard Scrubber only reads publicly available information from your Blackboard dashboard. It doesn't store or transmit your login credentials as the scraping process occurs after you login.
 
 **Q: Which universities/institutions are supported?**  
 A: The extension works with any institution that uses the standard Blackboard Learn platform. If you encounter issues with your specific institution, please open an issue. Adjust the domain names in the background and content scripts from utdallas to your unviersity of choice. 
 
 **Q: Can I export my data to other calendar apps?**  
-A: Currently, the extension supports Google Calendar integration and CSV export. The CSV file can be imported into most calendar applications. The Google Calendar sync feature only works when using the ElevAIte portal
+A: Currently, the extension supports Google Calendar integration and CSV export. The CSV file can be imported into most calendar applications. *The Google Calendar sync feature is still under active development*
 
 **Q: What data does the extension scrape?**  
 A: The extension only scrapes course information, assignment details, and due dates from your Blackboard dashboard. Future plans are to also scrape the grades feature. If you'd like, you can fork this repository, add any features you like, and submit a pull request. 
 
 **Q: I'm getting an error when trying to scrape data. What should I do?**  
 A: Make sure you're logged into Blackboard. The service workers check the domain to see if you are on the elearning.[university].edu
-
-**Q: Is this extension free to use?**  
-A: Yes! BlackBoard Crawler is completely free and open-source.
-
-**Q: How do I contribute to this project?**  
-A: Contributions are welcomed! Please fork the repository, make your changes, and submit a pull request. Check the issues page for areas where help is needed.
