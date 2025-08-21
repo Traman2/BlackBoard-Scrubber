@@ -1,6 +1,6 @@
 <p align="center">
   <img src="BlackBoardCrawlerLogo.svg" alt="BlackBoard Crawler Logo" width="40" style="vertical-align: middle; margin-right: 10px;">
-  <span style="font-size: 2em; font-weight: bold; vertical-align: middle;">BlackBoard Crawler</span>
+  BlackBoard Crawler
 </p>
 <p align="center">
  <img src="READMELanding.png"/>
