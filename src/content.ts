@@ -1,5 +1,5 @@
 (function () {
-    // web scraping code is here
+    // scrape classes
     const courseElements = document.querySelectorAll(
         'div.default-group.term-_880_1 bb-base-course-card article div a h4.js-course-title-element'
     );
@@ -15,3 +15,4 @@
         data: courseNames
     });
 })();
+
