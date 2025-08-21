@@ -55,9 +55,6 @@ Transform your academic management from manual drudgery to automated efficiency 
   <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_4.svg"/>
 </div>
 <div align="center">
-  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_5.svg"/>
-</div>
-<div align="center">
   <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20sort%3Aupdated-desc"><img src="https://github.com/user-attachments/assets/e3deab96-be62-42b4-886b-a8509ffe761a"/></a>
 </div>
 
