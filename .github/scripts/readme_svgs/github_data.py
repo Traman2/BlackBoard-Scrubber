@@ -5,9 +5,6 @@ import json
 from dataclasses import dataclass, field
 from enum import Enum, auto
 from typing import List, Dict, Optional, Any, Tuple
-from dotenv import load_dotenv
-
-load_dotenv()
 
 #----- Configuration -----#
 REPO_OWNER = "traman2"
