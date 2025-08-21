@@ -39,6 +39,27 @@ Transform your academic management from manual drudgery to automated efficiency 
   <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Atodo"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_todo.svg"/></a>
   <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Aworking"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_working.svg"/></a>
 </div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_0.svg"/>
+</div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_1.svg"/>
+</div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_2.svg"/>
+</div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_3.svg"/>
+</div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_4.svg"/>
+</div>
+<div align="center">
+  <img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_5.svg"/>
+</div>
+<div align="center">
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20sort%3Aupdated-desc"><img src="https://github.com/user-attachments/assets/e3deab96-be62-42b4-886b-a8509ffe761a"/></a>
+</div>
 
 
 
