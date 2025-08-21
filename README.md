@@ -9,6 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/GPL--3.0-red?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
@@ -29,9 +30,9 @@
 
 - **Super Fast**: Instantly scrape all tasks and classes in seconds
 - **Multiple Export Options**: Download data as CSV files or sync directly with ElevAIte portal
-- **📅 Calendar Integration**: Seamlessly sync assignments with Google Calendar
-- **🔧 Automation Tools**: Powerful automation capabilities to speed up your scheduling workflows
-- **🆓 Open Source**: Released under GNU GPL-3.0 License
+- **Calendar Integration**: Seamlessly sync assignments with Google Calendar
+- **Automation Tools**: Powerful automation capabilities to speed up your scheduling workflows
+- **Open Source**: Released under GNU GPL-3.0 License
 
 Transform your academic management from manual drudgery to automated efficiency with BlackBoard Crawler. 
 
