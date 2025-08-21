@@ -1,0 +1,5 @@
+update-readme.yml saves to virtual folders in github repo with dirs
+
+- Status
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_idea.svg
+- 
