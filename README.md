@@ -13,14 +13,6 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
-<h6 align="center">
-    <a href="https://elevaiteworkspace.com">Try Out ElevAIte</a>
-    ·
-    <a href="https://www.linkedin.com/in/tejas-raman-1a892b255/">LinkedIn</a>
-    ·
-    <a href="https://github.com/traman2/">Github</a>
-</h6>
-
 ## 🚀 About
 
 **BlackBoard Crawler** is a powerful Chrome extension designed to streamline your academic workflow. Part of the ElevAIte productivity suite, this open-source tool automates the tedious process of manually tracking assignments and classes from Blackboard.
