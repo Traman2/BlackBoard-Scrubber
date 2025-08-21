@@ -74,7 +74,7 @@ Transform your academic management from manual drudgery to automated efficiency 
 5. **That's it!**
 
 ### 🖥️ Usage
-Once the BlackBoard Crawler Extension is setup and working properly, click on the Scrape Data button and watch the extension work its magic and instantly render all the classes you're currently enrolled in this tear. 
+Once the BlackBoard Crawler Extension is setup and working properly, click on the `Get My Courses` button and watch the extension work its magic and instantly render all the classes you're currently enrolled in this tear. 
 
 ## ❓ FAQ
 **Q: Is this extension safe to use with my Blackboard account?**  

@@ -6,6 +6,10 @@ chrome.runtime.onMessage.addListener((msg) => {
       //Block new tab, history so on
       if (!tab || !tab.id || !tab.url || tab.url.startsWith("chrome://")) {
         console.warn("Cannot inject into this page:", tab?.url);
+        chrome.runtime.sendMessage({
+          type: "DOMAIN_ERROR",
+          message: "Please navigate to elearning.utdallas.edu first"
+        });
         return;
       }
 
@@ -32,7 +36,7 @@ chrome.runtime.onMessage.addListener((msg) => {
               target: { tabId: tab.id! },
               files: ["content.js"]
             });
-          }, 6000);
+          }, 4000);
         });
       }
     });
