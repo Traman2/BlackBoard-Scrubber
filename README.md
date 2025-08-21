@@ -1,4 +1,7 @@
-<img src="BlackBoardCrawlerLogo.svg" alt="BlackBoard Crawler Logo" width="40" style="vertical-align: middle; margin-right: 10px;"> BlackBoard Crawler
+<h1>
+  <img src="BlackBoardCrawlerLogo.svg" alt="BlackBoard Crawler Logo" width="40" style="vertical-align: middle; margin-right: 10px;">
+  <span style="vertical-align: middle;">BlackBoard Crawler</span>
+</h1>
   
 <br>
 
