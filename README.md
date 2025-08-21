@@ -7,10 +7,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"/>
-  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+   <img src="https://img.shields.io/badge/Google_chrome-4285F4?style=for-the-badge&logo=Google-chrome&logoColor=white"/>
+   <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
+   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
+
+<p align="center">
+   <img src="https://img.shields.io/github/issues/traman2/BlackBoard-Scrubber"/>
+   <img src="https://img.shields.io/github/issues-closed/traman2/BlackBoard-Scrubber"/>
 </p>
 
 ## 🚀 About
@@ -25,6 +30,17 @@
 - **Automation Tools**: Powerful automation capabilities to speed up your scheduling workflows
 
 Transform your academic management from manual drudgery to automated efficiency with BlackBoard Scrubber. 
+
+### ⁉️Issues
+<div align="center">
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Acomplete"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_complete.svg"/></a>
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Apending"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_pending.svg"/></a>
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Areview"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_review.svg"/></a>
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Atodo"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_todo.svg"/></a>
+  <a href="https://github.com/traman2/BlackBoard-Scrubber/issues?q=is%3Aissue%20label%3Astatus%3Aworking"><img src="https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_working.svg"/></a>
+</div>
+
+
 
 ### 🛠️ Setup & Installation
 
