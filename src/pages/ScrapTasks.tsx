@@ -7,7 +7,7 @@ export default function ScrapTasks() {
 
     const handleScrape = () => {
         // Fake data for testing the extension styling
-        const fakeCourses = [
+        const fakeCourses = [   
             "CS 101 - Introduction to Computer Science",
             "MATH 201 - Calculus II",
             "ENG 102 - English Composition",
@@ -24,7 +24,7 @@ export default function ScrapTasks() {
         }, 1000);
     };
 
-    
+
     // const handleScrape = () => {
     //   chrome.runtime.sendMessage({ type: "START_SCRAPE" });
     // };
