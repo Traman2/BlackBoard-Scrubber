@@ -1,5 +1,15 @@
 update-readme.yml saves to virtual folders in github repo with dirs
 
 - Status
-  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_idea.svg
-- 
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_working.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_pending.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_complete.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_review.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/status_todo.svg
+
+- Issue Cards
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_0.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_1.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_2.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_3.svg
+  - https://github.com/traman2/BlackBoard-Scrubber/blob/generated-svgs/issue_4.svg
