@@ -1,0 +1,200 @@
+
+    <svg width="670" height="100" xmlns="http://www.w3.org/2000/svg">
+        <!-- https://github.com/Traman2/BlackBoard-Scrubber/issues/6 -->
+
+        <!-- Definitions -->
+        <defs>
+            <clipPath id="circle-clip">
+                <circle cx="0" cy="0" r="17.5" />
+            </clipPath>
+        </defs>
+
+        <!-- Style -->
+        
+<style>
+    :root {
+         --border-color: #d1d9e0;
+         --fgColor-default: #1f2328;
+         --fgColor-accent: #0969da;
+         --fgColor-muted: #59636e;
+         --fgColor-success: #1a7f37;
+         --fgColor-danger: #d1242f;
+         --fgColor-done: #8250df;
+         --bgColor-neutral-muted: #818b981f;
+         --bgColor-success: #1f883d;
+         --text-large: 1rem;
+         --text-medium: 0.875rem;
+         --text-small: 0.75rem;
+         --text-weight-light: 300;
+         --text-weight-normal: 400;
+         --text-weight-medium: 500;
+         --text-weight-semibold: 600;
+     }
+
+    text {
+        font-family: Arial, sans-serif;
+        font-size: var(--text-medium);
+    }
+
+    text.title {
+        fill: var(--fgColor-default);
+        font-size: var(--text-large);
+        font-weight: var(--text-weight-semibold);
+    }
+
+    text.small {
+        font-size: var(--text-small);
+        font-weight: var(--text-weight-normal);
+    }
+
+    text.medium {
+        font-size: var(--text-medium);
+        font-weight: var(--text-weight-normal);
+    }
+
+    text.muted {
+        fill: var(--fgColor-muted);
+    }
+
+    text.counter {
+        fill: var(--fgColor-muted);
+        font-size: 40px;
+        text-anchor: middle;
+    }
+
+    text.button {
+        font-size: 14px;
+        fill: var(--fgColor-default);
+    }
+
+    text.label {
+        font-size: var(--text-medium);
+        font-weight: var(--text-weight-semibold);
+    }
+
+    text.label-muted {
+        fill: var(--fgColor-muted);
+        font-size: var(--text-small);
+        font-weight: var(--text-weight-normal);
+    }
+
+    rect.labelBg {
+        fill-opacity: 1.0;
+    }
+
+    rect.labelBg-muted {
+        fill: none;
+        stroke: var(--border-color);
+        stroke-width: 0.5px;
+    }
+
+    rect.card {
+        fill: none;
+        stroke: var(--border-color);
+        stroke-width: 1.5px;
+        rx: 6px;
+        ry: 6px;
+    }
+
+    rect.progress-bg {
+        fill: var(--bgColor-neutral-muted);
+    }
+
+    rect.progress-fill {
+        fill: var(--bgColor-success);
+    }
+
+    .icon-open {
+        fill: var(--fgColor-success);
+    }
+
+    .icon-closed {
+        fill: var(--fgColor-muted);
+    }
+
+    .icon-completed {
+        fill: var(--fgColor-done);
+    }
+
+    .icon-danger {
+        fill: var(--fgColor-danger);
+    }
+
+    .icon-muted {
+        fill: var(--fgColor-muted);
+    }
+
+    .icon-default {
+        fill: var(--fgColor-default);
+    }
+
+    @media (prefers-color-scheme: light) {
+        text.label {
+            fill: #000000;
+        }
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --border-color: #3d444d;
+            --fgColor-default: #d1d7e0;
+            --fgColor-muted: #9198a1;
+            --fgColor-accent: #478be6;
+            --fgColor-success: #57ab5a;
+            --fgColor-danger: #e5534b;
+            --fgColor-done: #986ee2;
+            --bgColor-neutral-muted: #656c7633;
+            --bgColor-success: #347d39;
+            --button-background-color: #2a313c;
+        }
+
+        rect.labelBg {
+            fill-opacity: 0.2;
+        }
+    }
+</style>
+
+
+        <!-- Card Background -->
+        <rect class="card" x="0" y="0" width="670" height="100"/>
+
+        <!-- Issue Icon -->
+        <path class="icon-open" transform="translate(8, 8)" d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"/>
+
+        <!-- Issue Title -->
+        <text class="title" x="28" y="18.0" text-anchor="start" dominant-baseline="middle">
+            tEST <tspan style="fill: var(--fgColor-muted);font-weight: var(--text-weight-normal);">#6</tspan>
+        </text>
+
+        
+        <!-- Label -->
+        <g transform="translate(611.0, 8)">
+            <rect class="labelBg-muted" x="-47.0" y="0" width="94" height="16" rx="8.0"/>
+            <text class="label-muted" x="0" y="9.0" text-anchor="middle" dominant-baseline="middle">status:complete</text>
+        </g>
+        
+        <!-- Label -->
+        <g transform="translate(530.0, 8)">
+            <rect class="labelBg-muted" x="-30.0" y="0" width="60" height="16" rx="8.0"/>
+            <text class="label-muted" x="0" y="9.0" text-anchor="middle" dominant-baseline="middle">prio:high</text>
+        </g>
+        
+        <!-- Label -->
+        <g transform="translate(457.0, 8)">
+            <rect class="labelBg-muted" x="-39.0" y="0" width="78" height="16" rx="8.0"/>
+            <text class="label-muted" x="0" y="9.0" text-anchor="middle" dominant-baseline="middle">type:feature</text>
+        </g>
+        
+        <!-- Contributor Comment -->
+        <text class="small" fill="var(--fgColor-muted)" x="8" y="91"><tspan style="text-decoration: underline;">Traman2</tspan> opened on Sep 4</text>
+    
+        <!-- Avatars -->
+        
+            <g transform="translate(644.5, 54.0)">
+                <image x="-17.5" y="-17.5" width="35" height="35" href="data:image/png;base64,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" clip-path="url(#circle-clip)" />
+                <circle cx="0" cy="0" r="17.5" fill="none" stroke="var(--border-color)" stroke-width="1" />
+            </g>
+            
+        
+    </svg>
+    
